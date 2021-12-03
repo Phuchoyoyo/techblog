@@ -21,9 +21,11 @@
 <p> define----------arrays-----------------------end </p>
 
 <p> let me = arr2.find((n ) => { </p>
- //taking array, putting function into the array, function is .find, .find is a test function.
-   console.log()
-  return (n = 'phuc')
+ <p>//taking array, putting function into the array, function is .find, .find is a test function.</p>
+  <p> console.log(n)</p>
+ <p>//n is just a name, in the brackets you put a word, that word will be an unbound varible , why? because anything inside a parameter will be unbound.</p>
+ <p> return (n === 'phuc')</p>
+ <p> //just returns the unbound varible if it is equal to the letter</p>
   </body>
   
 </html>
